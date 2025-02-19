@@ -4,102 +4,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andrea Helga Jónsdóttir - Portfolio</title>
-    <link href="./dist/output.css" rel="stylesheet">
+    <title>Andrea Helga</title>
+    <link href="output.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Exo 2', sans-serif;
         }
-    </style></head>
+    </style>
+</head>
 
 <body class="bg-mylightbrown text-black font-exo2">
-    <!-- Wrapper for scrolling -->
     <div class="h-screen overflow-y-scroll snap-y snap-mandatory">
-        <!-- Section 1: Title and About Me-->
-        <section class="h-screen flex flex-col text-black snap-start w-full">
-            <!-- Header -->
-            <header class="w-full flex flex-row">
-                <h1 class="p-10 text-2xl w-full">PORTFOLIO 2025</h1>
-                <h1 class="p-10 text-2xl font-semibold w-full">Andrea Helga Jónsdóttir</h1>
-                <div class="w-full flex flex-row justify-center">
-                    <div class="w-full flex flex-col justify-center">
-                    </div>
-                    <div class="pr-10 pt-5 pb-5 w-fit flex flex-col justify-center text-xl">
-                        <h2 class="p-1">Tölvunarfræðingur</h2>
-                        <h2 class="p-1">Kvikmyndafræðingur</h2>
-                        <h2 class="p-1">Jógakennari</h2>
-                    </div>
-                </div>
-            </header>
 
-            <!-- Main Content of Section 1 -->
-            <div class=" flex-1 flex flex-row justify-center">
-                <!-- Image -->
-                <div class="flex items-center w-full">
-                    <img src="assets/coffeedog.jpg" alt="Dog drinking coffee" class="w-full">
+        <!-- Page 1: Front Page -->
+        <section class="snap-start h-screen w-full grid grid-cols-1 grid-rows-12 lg:grid-cols-4">
+            <h1 class="flex items-center justify-center row-span-1 lg:col-span-4">Andrea Helga</h1>
+            <div class="w-auto row-span-3 lg:col-span-2 lg:row-start-3 lg:row-span-6 lg:pl-20 flex justify-center">
+                <img src="assets/coffeedog.jpg" alt="Coffee Dog" class="max-h-full max-w-full object-contain">
+            </div>
+            <div
+                class="pl-10 pr-5 row-span-4 lg:col-span-2 lg:row-start-3 lg:row-span-6 flex flex-col justify-center lg:pr-20">
+                <div class="row-span-1 lg:row-span-3">
+                    <h2 class="text-2xl lg:text-3xl font-grapenuts">Hæ!</h2>
                 </div>
-                <!--- Profile Image and About Me -->
-                <div class="p-10 pb-15 w-fit flex flex-col justify-center">
-                    <div class="flex flex-row">
-                         <!--- Hæ! -->
-                        <div class="w-full flex flex-col justify-end">
-                            <h2 class="p-5 text-3xl ">Hæ!</h2>
-                        </div>
-                        <!--- Profile Image -->
-                        <div class="flex flex-row justify-end p-5">
-                            <img src="assets/profilepic.jpeg" alt="Profile Picture" class="w-80 h-80 object-cover rounded-md shadow">
-                        </div>
+                <div>
+                    <p class="text-sm lg:text-lg">
+                        Ég heiti Andrea og mun útskrifast sem tölvunarfræðingur frá Háskólanum í Reykjavík í
+                        júní á þessu ári. Að auki er ég menntaður kvikmyndafræðingur og með jógakennarréttindi og kenni
+                        jóga hjá Kötlu Fitness. Ég hef mikinn áhuga á forritun, vefhönnun og gagnavinnslu.
+                    </p>
+                </div>
+            </div>
+            <!--Links & Profile Img-->
+            <div class="row-span-4 grid grid-rows-10 lg:row-span-4 lg:col-span-4 lg:grid-cols-2 lg:grid-rows-5">
+                <div
+                    class="row-start-2 row-span-5 grid grid-cols-2 grid-rows-3 lg:col-start-2 lg:col-span-1 lg:row-span-5">
+                    <div class="col-start-2 col-span-1 row-span-3 flex justify-center">
+                        <img src="assets/profilepic.jpeg" alt="Profile Picture" class="object-contain lg:p-5">
                     </div>
-                    <div class="">
-                        <div class="p-5 text-lg">
-                            <p class="pb-3">Ég heiti Andrea og mun útskrifast sem tölvunarfræðingur frá Háskólanum í Reykjavík í júní á þessu ári.
-                                Í náminu mínu hef ég lokið áföngum á borð við Vefforritun, Gagnasafnsfræði og Tölvusamskipti þar sem ég hef lært á meðal
-                                annars Python, Java, SQL, JavaScript, HTML, C og C++ og fleira. Því hef ég reynslu af bæði bakenda- og framendaforritun. Ég
-                                hef einnig nokkra reynslu á tólum eins og Tailwind og Figma. Að auki hef ég unnið að skapandi verkefnum í náminu sem
-                                krefjast mikillar samvinnu.
-                            </p>
-                            <p class="pb-3">
-                                Árið 2021 útskrifaðist ég frá Háskóla Íslands með BA gráðu í Kvikmyndafræði með ensku sem aukagrein. Ég fór einnig í
-                                skiptinám til Ástralíu í eina önn þar sem ég stundaði nám við Bond University. Þar lærði ég kvikmyndatöku, klippingu (e.
-                                editing), leikstjórn og fleira. Einnig stundaði ég nám í jógakennarafræðum í Kosta Ríka og hef áunnið mér réttindi sem
-                                jógakennari og kenni jóga hjá Kötlu Fitness.
-                            </p>
-                            <p>
-                                Ég hef verðmæta reynslu úr fjölbreyttum störfum, allt frá jógakennslu til ritarastarfa og þjónustustarfa, þar með talið
-                                starf sem móttökuritari á Heilsugæslunni í Hlíðum og verkefni tengd gagnasöfnun og úrvinnslu hjá Ræstitækni ehf. Þessi
-                                reynsla hefur þróað hjá mér góða samskiptahæfileika, skipulagshæfni og getu til að læra nýja hluti fljótt. Þetta eru
-                                eiginleikar sem ég tel að muni nýtast mér vel í starfi. Fyrir utan tækni og nám eru önnur áhugamál mín til dæmis hlaup,
-                                útivist, tónlist og kvikmyndir.
-                            </p>
-                        </div>
+                </div>
+                <div
+                    class="flex flex-col gap-2 row-start-7 row-span-3 pl-10 text-sm pt-2 lg:col-start-1 lg:col-span-1 lg:row-span-5 lg:pl-32 lg:text-lg">
+                    <!--Email-->
+                    <div class="flex flex-row gap-2">
+                        <img src="assets/email.png" alt="Email Icon" class="w-6 h-6">
+                        <p class="">andreahelga1@gmail.com</p>
+                    </div>
+                    <!--LinkedIn-->
+                    <div class="flex flex-row gap-2">
+                        <img src="assets/linkedin.png" alt="LinkedIn Icon" class="w-6 h-6">
+                        <p class="">linkedin.com/in/andreahelga</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Section 2: CV -->
-        <section class="h-screen flex flex-col items-center snap-start w-full">
-            <div class="bg-blue-500 p-20 w-full">
-                <h2 class="text-4xl font-semibold">Ferilskrá</h2>
+        <section class="bg-purple-200 snap-start h-screen w-full grid grid-cols-1 grid-rows-12">
+            <h2 class="bg-green-400 row-start-1 row-span-1 pl-5 flex justify-start items-center">Um mig</h2>
+            <div class="bg-pink-400 row-start-2 row-span-5 text-md pl-5 pr-5 pt-3">
+                <p class="leading-relaxed">
+                Í náminu mínu hef ég lokið áföngum á borð við Vefforritun, Gagnasafnsfræði og
+                Tölvusamskipti þar sem ég hef
+                lært á meðal
+                annars Python, Java, SQL, JavaScript, HTML, C og C++ og fleira. Því hef ég reynslu af
+                bæði bakenda- og
+                framendaforritun. Ég
+                hef einnig nokkra reynslu á tólum eins og Tailwind og Figma. Að auki hef ég unnið að
+                skapandi verkefnum í
+                náminu sem
+                krefjast mikillar samvinnu.
+                </p>
+                <p class="leading-relaxed">
+                    Árið 2021 útskrifaðist ég frá Háskóla Íslands með BA gráðu í Kvikmyndafræði með ensku sem aukagrein.
+                    Ég fór einnig í
+                    skiptinám til Ástralíu í eina önn þar sem ég stundaði nám við Bond University. Þar lærði ég
+                    kvikmyndatöku, klippingu (e.
+                    editing), leikstjórn og fleira. Einnig stundaði ég nám í jógakennarafræðum í Kosta Ríka og hef
+                    áunnið mér réttindi sem
+                    jógakennari og kenni jóga hjá Kötlu Fitness.
+                </p>
+
+                <p class="leading-relaxed">
+                    Ég hef verðmæta reynslu úr fjölbreyttum störfum, allt frá jógakennslu til ritarastarfa og
+                    þjónustustarfa, þar með talið
+                    starf sem móttökuritari á Heilsugæslunni í Hlíðum og verkefni tengd gagnasöfnun og úrvinnslu hjá
+                    Ræstitækni ehf. Þess
+                    reynsla hefur þróað hjá mér góða samskiptahæfileika, skipulagshæfni og getu til að læra nýja hluti
+                    fljótt. Þetta eru
+                    eiginleikar sem ég tel að muni nýtast mér vel í starfi.
+                </p>
+                <p class="leading-relaxed">
+                    Fyrir utan tækni og nám eru önnur áhugamál mín til dæmis hlaup, útivist, tónlist og kvikmyndir.
+                </p>
+            </div>
+            <div class="bg-blue-400 row-start-8 row-span-4 grid grid-cols-2 grid-rows-2 p-3">
+                <div class="col-span-1 row-span-1 justify-self-end">
+                    <img src="assets/computergirl.jpg" alt="Computer" class="max-h-full max-w-full object-contain">
+                    <img src="assets/film.jpg" alt="Film" class="max-h-full max-w-full object-contain">
+                </div>
+                <div class="col-span-1 row-span-1">
+                    <img src="assets/music.jpg" alt="Computer" class="max-h-full max-w-full object-contain">
+                    <img src="assets/yoga.jpg" alt="Film" class="max-h-full max-w-full object-contain">
+                </div>
             </div>
         </section>
 
-        <!-- Section 3 -->
-        <section class="h-screen flex flex-col justify-center items-center bg-gray-300 snap-start w-full">
-            <h2 class="text-3xl font-semibold">Projects</h2>
-            <ul class="mt-5 space-y-5 max-w-screen-md mx-auto">
-                <li class="p-4 bg-gray-400 rounded-lg text-center">
-                    <h3 class="font-bold text-xl">📚 Reading App</h3>
-                    <p>A Flutter-based app that gamifies reading for kids.</p>
-                </li>
-                <li class="p-4 bg-gray-400 rounded-lg text-center">
-                    <h3 class="font-bold text-xl">💻 Meet4Real</h3>
-                    <p>A matchmaking web app developed in JavaScript and Node.js.</p>
-                </li>
-            </ul>
+        <!--Section 3: CV-->
+        <section class="bg-purple-200 snap-start h-screen w-full grid grid-cols-1 grid-rows-12">
+            <h2 class="bg-green-400 row-start-1 row-span-1 pl-5 flex justify-start items-center">Ferilskrá </h2>
         </section>
-
     </div>
 </body>
 
